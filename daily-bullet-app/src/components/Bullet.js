@@ -4,8 +4,11 @@ class Bullet extends React.Component{
     render() {
         return(
             <div>
-                <input type="checkbox" />
-                <span>A bullet</span>
+                <ul>
+                    <li>
+                    {this.props.text}
+                    </li>
+                </ul>
             </div>
         )
     }
